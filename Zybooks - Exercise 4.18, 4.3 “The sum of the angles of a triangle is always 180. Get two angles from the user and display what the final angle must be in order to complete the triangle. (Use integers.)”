@@ -1,0 +1,20 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+   int angleA;
+   int angleB;
+   int finalAngle;
+   cout<<"Enter first angle: ";
+   cin>>angleA;
+   cout<<angleA;
+   cout<<endl;
+   cout<<"Enter second angle: ";
+   cin>>angleB;
+   cout<<angleB<<endl;
+   finalAngle = 180 - (angleA + angleB);
+   cout << "The third angle is " << finalAngle << endl;
+   
+   return 0;
+}
