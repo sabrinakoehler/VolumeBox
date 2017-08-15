@@ -1,0 +1,36 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+   int main () {
+      int length;
+      int width;
+      int height;
+      cout<<"Enter length: ";
+      cin>>length;
+      cout<<length;
+      cout<<endl;
+      cout<<"Enter width: ";
+      cin>>width;
+      cout<<width;
+      cout<<endl;
+      cout<<"Enter height: ";
+      cin>>height;
+      cout<<height;
+      cout<<endl;
+      int volume = length * (width * height);
+      cout<<"The volume is ";
+      cout<<volume;
+      cout<<endl;
+           
+      return 0;
+   }
+Input: 
+1
+2
+3
+Output:
+Enter length: 1
+Enter width: 2
+Enter height: 3
+The volume is 6
