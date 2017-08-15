@@ -1,0 +1,18 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+   float radius;
+   float circleCircumference;
+   
+   cout<<"Enter the radius: ";
+   cin>>radius;
+   cout<<radius;
+   cout<<endl;
+ 
+   circleCircumference = ((3.1415 * 2) * radius);
+   cout << "The circumference is "<< circleCircumference << endl;
+   
+   return 0;
+}
