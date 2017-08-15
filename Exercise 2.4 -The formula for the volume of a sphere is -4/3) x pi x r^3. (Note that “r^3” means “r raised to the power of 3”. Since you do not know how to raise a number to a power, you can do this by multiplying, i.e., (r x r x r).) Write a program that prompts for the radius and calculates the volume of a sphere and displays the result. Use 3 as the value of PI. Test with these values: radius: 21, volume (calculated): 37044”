@@ -1,0 +1,23 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+   float r;
+   cout<<"Enter the radius: " << endl;
+   cin>>r;
+   cout<<r;
+   cout<<endl;
+   float answer = (((r * (r * r)) * 4) * 3.1415)/3;
+   cout<<"The volume is ";
+   cout<<answer;
+   cout<<endl;
+   
+   return 0;
+}
+Input:
+21
+Output:
+Enter radius: 
+21
+The volume is 38791.2
