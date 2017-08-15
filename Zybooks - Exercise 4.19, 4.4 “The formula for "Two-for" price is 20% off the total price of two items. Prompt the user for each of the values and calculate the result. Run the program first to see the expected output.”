@@ -1,0 +1,22 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+   float itemA;
+   float itemB;
+   float priceTotal;
+   
+   cout<<"Enter price 1: ";
+   cin>>itemA;
+   cout<<itemA;
+   cout<<endl;
+   cout<<"Enter price 2: ";
+   cin>>itemB;
+   cout<<itemB<<endl;
+   
+   priceTotal = (itemA + itemB) - ((itemA + itemB) * .20);
+   cout << "The 'two-for' price is " << "$" << priceTotal <<endl;
+   
+   return 0;
+}
