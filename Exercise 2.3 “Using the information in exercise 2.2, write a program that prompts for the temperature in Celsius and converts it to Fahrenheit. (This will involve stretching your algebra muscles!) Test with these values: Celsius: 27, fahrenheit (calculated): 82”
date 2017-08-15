@@ -1,0 +1,23 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+   float c;
+   cout<<"Temp in Celsius ";
+   cin>>c;
+   cout<<c;
+   cout<<endl;
+   float answer = ((9*c)/5)+32;
+   cout<<"The temp in Fahrenheit is ";
+   cout<<answer;
+   cout<<endl;
+   
+   return 0;
+}
+
+Input:
+27
+Output:
+Temp in Celcius 27
+The temp in Fahrenheit is 80.6
