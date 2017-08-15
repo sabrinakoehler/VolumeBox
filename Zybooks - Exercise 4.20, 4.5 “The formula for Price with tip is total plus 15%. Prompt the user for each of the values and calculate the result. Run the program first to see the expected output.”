@@ -1,0 +1,20 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+   float foodTotal;
+   float tipTotal;
+   float billTotal;
+   
+   cout<<"Enter the total: ";
+   cin>>foodTotal;
+   cout<<foodTotal;
+   cout<<endl;
+ 
+   tipTotal = (foodTotal * .15);
+   billTotal = tipTotal + foodTotal;
+   cout << "The cost including tip is " << "$" << billTotal <<endl;
+   
+   return 0;
+}
