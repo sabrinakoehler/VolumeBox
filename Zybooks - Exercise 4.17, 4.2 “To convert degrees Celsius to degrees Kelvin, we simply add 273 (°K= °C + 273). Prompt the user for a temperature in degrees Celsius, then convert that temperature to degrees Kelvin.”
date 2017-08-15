@@ -1,0 +1,15 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+   float c;
+   cout<<"Enter Celsius: ";
+   cin>>c;
+   cout<<c;
+   cout<<endl;
+   float answer = (c+273);
+   cout<< c <<" Celsius is " << answer << " Kelvin.";
+   
+   return 0;
+}
